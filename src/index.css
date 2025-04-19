@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+@keyframes glowWave {
+  0% {
+    filter: drop-shadow(0 0 8px #c0d4ff);
+  }
+  50% {
+    filter: drop-shadow(0 0 16px #c0d4ff);
+  }
+  100% {
+    filter: drop-shadow(0 0 8px #c0d4ff);
+  }
+}
+
+.glowing-wave {
+  animation: glowWave 3s ease-in-out infinite;
+}
+/* 👉 Add this at the bottom of index.css or App.css */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%; /* cover entire button with overflow */
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 100%
+  );
+  animation: shimmer 2.5s infinite;
+  pointer-events: none;
+}
