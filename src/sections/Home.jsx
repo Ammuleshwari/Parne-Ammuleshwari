@@ -9,20 +9,17 @@ const Home = () => {
     >
       {/* Animated name top-left corner */}
       <motion.div
-  className="absolute top-6 left-6 z-50 text-3xl md:text-4xl font-cursive bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#3EFFC0] bg-clip-text text-transparent animate-text"
-  initial={{ opacity: 0, x: -30 }}
-  animate={{ opacity: 1, x: 0 }}
-  transition={{ duration: 1 }}
->
-  Ammuleshwari
-</motion.div>
-
-
-
+        className="absolute top-4 left-4 z-50 text-2xl sm:text-3xl md:text-4xl font-cursive bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#3EFFC0] bg-clip-text text-transparent animate-text"
+        initial={{ opacity: 0, x: -30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      >
+        Ammuleshwari
+      </motion.div>
 
       {/* Animated top badge */}
       <motion.div
-        className="mb-4 relative"
+        className="mt-20 sm:mt-16 mb-2 sm:mb-4 relative"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -34,17 +31,17 @@ const Home = () => {
 
       {/* Animated headline */}
       <motion.h1
-        className="text-5xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#3EFFC0] bg-clip-text text-transparent animate-text"
+        className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#3EFFC0] bg-clip-text text-transparent animate-text"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Designing Seamless & <br /> Impactful Digital Experiences
+        <br /> Impactful Digital Experiences
       </motion.h1>
 
       {/* Animated paragraph */}
       <motion.p
-        className="mt-6 max-w-xl text-lg text-gray-400"
+        className="mt-4 sm:mt-6 max-w-xl text-base sm:text-lg text-gray-400"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
@@ -55,7 +52,7 @@ const Home = () => {
 
       {/* Animated buttons */}
       <motion.div
-        className="mt-8 flex gap-4 flex-wrap justify-center"
+        className="mt-6 sm:mt-8 flex gap-4 flex-wrap justify-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.8 }}
@@ -68,7 +65,7 @@ const Home = () => {
         >
           <a
             href="#contact"
-            className="group bg-black rounded-full px-6 py-3 text-white flex items-center gap-2 transition duration-300"
+            className="group bg-black rounded-full px-3 py-3 text-white flex items-center gap-2 transition duration-300"
           >
             <motion.span
               className="inline-block"

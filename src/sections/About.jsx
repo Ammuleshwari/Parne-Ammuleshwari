@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen bg-[#0a0a0a] text-white px-4 py-20 text-center flex flex-col items-center justify-center"
+      className="min-h-screen bg-black text-white px-4 py-20 text-center flex flex-col items-center justify-center"
     >
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
@@ -29,7 +29,7 @@ const About = () => {
 
         {/* Education Section */}
        {/* Education Section */}
-<motion.div
+{/*<motion.div
   className="mb-20"
   initial={{ opacity: 0, y: 40 }}
   whileInView={{ opacity: 1, y: 0 }}
@@ -62,7 +62,7 @@ const About = () => {
     </p>
   </motion.div>
 </motion.div>
-
+*/}
 
         {/* Technologies Section */}
         <motion.div
