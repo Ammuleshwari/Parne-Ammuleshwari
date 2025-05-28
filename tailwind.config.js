@@ -9,15 +9,13 @@ export default {
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
-        cursive: ['"Great Vibes"', 'cursive'], // ✅ Add this line
+        cursive: ['"Great Vibes"', 'cursive'],
       },
       animation: {
         gradient: 'gradient-x 6s ease infinite',
-        text: 'text 5s ease infinite', // ✅ Combine animations here
-      },
-      animation: {
+        text: 'text 5s ease infinite',
         'spin-slow': 'spin 4s linear infinite',
-      },      
+      },
       keyframes: {
         'gradient-x': {
           '0%, 100%': { 'background-position': '0% 50%' },

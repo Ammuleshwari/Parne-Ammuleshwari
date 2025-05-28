@@ -109,7 +109,7 @@ const Projects = () => {
   return (
     <section id="projects" className="min-h-screen bg-black text-white py-20 px-4">
       {/* Gradient heading */}
-      <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#3EFFC0] bg-clip-text text-transparent animate-pulse">
+      <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-500 via-pink-400 to-blue-500 bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient">
         Let's explore my projects
       </h2>
 

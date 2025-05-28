@@ -8,15 +8,19 @@ const Education = () => {
     <section id="education" className="py-16 px-4 md:px-10 bg-black text-white">
       {/* Title */}
       <motion.h2
-        className="text-4xl md:text-5xl font-bold text-center mb-12 bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#9b5de5] bg-clip-text text-transparent"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
-      >
-        Education
-        <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto mt-2 rounded-full"></div>
-      </motion.h2>
+  className="text-5xl font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 to-blue-500 
+    text-transparent bg-clip-text animate-gradient 
+    bg-[length:200%_200%] text-center mb-12"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }}
+>
+  Education
+  <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto mt-2 rounded-full"></div>
+</motion.h2>
+
+
 
       {/* Container */}
       <div className="flex flex-col lg:flex-row justify-center gap-8 items-stretch">
@@ -95,7 +99,7 @@ const Education = () => {
             <div className="space-y-4">
               {[
                 {
-                  title: 'AWS Solutions Architect',
+                  title: 'Certified Smart Coder',
                   date: 'Completed Dec 2023',
                 },
                 {

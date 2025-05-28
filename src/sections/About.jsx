@@ -43,7 +43,7 @@ const About = () => {
             onHoverEnd={() => setHoveredTech(null)}
             whileHover={{
               scale: 1.05,
-              rotateZ: -5,
+              rotateZ: -15,
               transition: { type: 'spring', stiffness: 300, damping: 10 },
             }}
             className={`relative group cursor-pointer rounded-full px-5 py-2 flex items-center gap-2 bg-[#111] border border-gray-700 transition-all duration-300 

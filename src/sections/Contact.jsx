@@ -43,7 +43,7 @@ const Contact = () => {
         className="w-full"
       >
         <p className="text-gray-300 text-sm tracking-widest mb-2 uppercase">GET IN TOUCH</p>
-        <h2 className="text-5xl font-extrabold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text animate-pulse">
+        <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-500 via-pink-400 to-blue-500 bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient">
           Contact Me
         </h2>
 
