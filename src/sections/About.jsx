@@ -19,7 +19,6 @@ const About = () => {
 
   return (
     <section id="about" className="relative bg-black text-white py-24 overflow-hidden">
-      {/* Rotating flower background */}
       <motion.img
         src={flower}
         alt="Rotating Flower"

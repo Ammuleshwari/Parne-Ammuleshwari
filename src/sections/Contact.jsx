@@ -102,9 +102,9 @@ const Contact = () => {
         </form>
 
         <div className="mt-10 flex justify-center gap-6 text-2xl text-white">
-          <a href="mailto:reddyammuleshwari@gmail.com" className="hover:text-[#3EFFC0] transition"><FaEnvelope /></a>
+          <a href="mailto:reddyammuleshwari@gmail.com" className="hover:text-[#cd4dad] transition"><FaEnvelope /></a>
           <a href="https://github.com/Ammuleshwari" target="_blank" rel="noopener noreferrer" className="hover:text-[#3EFFC0] transition"><FaGithub /></a>
-          <a href="https://linkedin.com/in/ammuleshwari-parne" target="_blank" rel="noopener noreferrer" className="hover:text-[#3EFFC0] transition"><FaLinkedin /></a>
+          <a href="https://linkedin.com/in/ammuleshwari-parne" target="_blank" rel="noopener noreferrer" className="hover:text-[#535ae1] transition"><FaLinkedin /></a>
         </div>
 
         <div className="mt-10">
