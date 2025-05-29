@@ -56,7 +56,7 @@ const Education = () => {
               </p>
               <p className="flex items-center gap-2">
                 <FaCheckCircle className="text-blue-400" />
-                GPA: 9.75
+                CGPA: 9.75
               </p>
             </div>
 
