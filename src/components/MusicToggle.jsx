@@ -20,7 +20,7 @@ const MusicToggle = () => {
   };
 
   return (
-    <div className="fixed top-2 right-4 z-50">
+    <div className="fixed top-2 right-10 z-50">
       <button
         onClick={toggleMusic}
         className={`w-20 h-20 rounded-full flex items-center justify-center transition-transform duration-500 ${

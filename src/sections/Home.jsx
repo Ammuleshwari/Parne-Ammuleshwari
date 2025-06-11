@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const ChangingWords = () => {
-  const words = ['Full Stack Developer', 'Tech Enthusiast', 'Smart Coder', 'Creative Thinker', 'UI/UX Designer'];
+  const words = ['Full Stack Developer', 'Tech Enthusiast','Problem Solver',];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

@@ -69,6 +69,7 @@ const Education = () => {
                 <span className="bg-green-800 px-3 py-1 rounded-full text-white">Operating Systems</span>
                 <span className="bg-pink-800 px-3 py-1 rounded-full text-white">Web Development</span>
                 <span className="bg-yellow-700 px-3 py-1 rounded-full text-white">Database Systems</span>
+                 <span className="bg-teal-700 px-3 py-1 rounded-full text-white">Computer Networks</span>
               </div>
             </div>
           </div>
@@ -100,15 +101,15 @@ const Education = () => {
               {[
                 {
                   title: 'Certified Smart Coder',
-                  date: 'Completed Dec 2023',
+                  date: 'Completed Apr 2025',
                 },
                 {
-                  title: 'Google Cloud Professional',
-                  date: 'Completed Oct 2023',
+                  title: 'Frontend Web Developer',
+                  date: 'Completed Apr 2025',
                 },
                 {
-                  title: 'Meta Frontend Developer',
-                  date: 'Completed Aug 2023',
+                  title: 'AWS Cloud Foundations',
+                  date: 'Completed Mar 2025',
                 },
               ].map((cert, index) => (
                 <div

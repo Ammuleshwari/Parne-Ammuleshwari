@@ -1,12 +1,13 @@
-import { FaHome, FaUser, FaCode, FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaHome, FaUser, FaCode, FaEnvelope,FaGraduationCap, FaLinkedin} from "react-icons/fa";
 
 const navItems = [
   { id: "home", label: "Home", icon: <FaHome /> },
   { id: "about", label: "About", icon: <FaUser /> },
   { id: "projects", label: "Projects", icon: <FaCode /> },
+  { id: "education", label: "Education", icon: <FaGraduationCap /> },
   { id: "contact", label: "Contact", icon: <FaEnvelope /> },
   { link: "https://www.linkedin.com/in/ammuleshwari-parne", label: "LinkedIn", icon: <FaLinkedin /> },
-  { link: "https://github.com/Ammuleshwari", label: "GitHub", icon: <FaGithub /> },
+ // { link: "https://github.com/Ammuleshwari", label: "GitHub", icon: <FaGithub /> },
 ];
 
 export default function Navbar() {

@@ -19,16 +19,25 @@ const Contact = () => {
     return newErrors;
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const validation = validate();
-    if (Object.keys(validation).length === 0) {
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  const validation = validate();
+  if (Object.keys(validation).length === 0) {
+    try {
+      await fetch('http://localhost:8080/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
       alert('Message sent!');
       setFormData({ name: '', email: '', message: '' });
-    } else {
-      setErrors(validation);
+    } catch (err) {
+      alert('Failed to send message');
     }
-  };
+  } else {
+    setErrors(validation);
+  }
+};
 
   return (
     <section

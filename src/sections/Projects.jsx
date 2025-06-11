@@ -14,17 +14,6 @@ const projects = [
       github: "#",  // Replace with actual repo
     },
   },  */
-  {
-    title: "Productivity Tracker Chrome Extension",
-    status: "Ongoing",
-    date: "Mar 2025",
-    description: ` Tracks ⏱️ time spent on websites automatically and categorizes 📚 them as productive or distracting.Visualizes 📊 your browsing habits in a clean, easy-to-understand dashboard.`,
-    techStack: ["React", "Vite", "Tailwind", "Mysql","SpringBoot","Full stack"],
-    links: {
-      website: "#",
-      github: "#",
-    },
-  },
  /* {
     title: "SkyCast",
     status: "Completed",
@@ -61,12 +50,23 @@ const projects = [
   {
     title: "Price-A-Med(PAM)",
     status: "Completed",
-    date: "Nov 2024",
+    date: "Jan 2024",
     description: `Price-A-Med (PAM) 💊🔍 is a platform that helps users find and compare medicine prices at nearby pharmacies 🏥.It simplifies access to affordable healthcare by offering local pharmacy options and home delivery services 🚚`,
     techStack: ["React","Vite", "Tailwind CSS", "JavaScript", "Mysql","Spring Boot", "Kafka","Redis","Docker", "Full Stack", "On Render"],
     links: {
       website: "#",
       github: "https://github.com/Ammuleshwari/Price-A-Med-PAM",
+    },
+  },
+  {
+    title: "Tunecrate",
+    status: "completed",
+    date: "Nov 2024",
+    description: `Tunecrate is a music streaming platform where users can log in, purchase premium access, and enjoy a curated collection of songs. Admins can manage content by adding new tracks with details like title, artist, and genre via the dashboard.`,
+    techStack: ["React", "Vite", "Tailwind", "Mysql","SpringBoot","JWT + Bcrypt","Razorpay Integration","Full stack"],
+    links: {
+      website: "#",
+      github: "https://github.com/Ammuleshwari/TuneCrate",
     },
   },
   
@@ -127,7 +127,7 @@ const Projects = () => {
                 <span className={`text-xs font-bold px-3 py-1 rounded-full ${
                   project.status === "Completed" ? "bg-green-600" :
                   project.status === "Maintained" ? "bg-purple-600" :
-                  "bg-yellow-500"
+                  "bg-green-600"
                 } text-black`}>
                   {project.status}
                 </span>
