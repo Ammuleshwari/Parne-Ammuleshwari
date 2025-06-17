@@ -24,7 +24,7 @@ const Contact = () => {
   const validation = validate();
   if (Object.keys(validation).length === 0) {
     try {
-      await fetch('http://localhost:8080/api/contact', {
+      await fetch('https://p-backend-l7r6.onrender.com/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

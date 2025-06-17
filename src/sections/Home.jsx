@@ -93,14 +93,14 @@ const Home = () => {
         I’m a <ChangingWords /> passionate about building sleek, scalable, and high-performing web applications with intuitive user experiences.
       </motion.p>
 
-      {/* Buttons */}
+     
       <motion.div
         className="mt-6 sm:mt-8 flex gap-4 flex-wrap justify-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.8 }}
       >
-        {/* Connect Button */}
+      
        <motion.div
   whileHover={{ scale: 1.05 }}
   className="rounded-full p-[2px] bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#3EFFC0] shadow-[0_0_12px_#00f0ff]"
@@ -109,7 +109,7 @@ const Home = () => {
     href="#contact"
     className="bg-black rounded-full px-2 py-3 text-white flex items-center gap-2 transition duration-300 group"
   >
-    {/* 👋 waving icon with motion */}
+   
     <motion.span
       className="inline-block"
       whileHover={{ rotate: [0, 20, -10, 20, -5, 0] }}
