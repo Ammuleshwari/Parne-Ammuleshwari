@@ -14,9 +14,10 @@ import docker from '../assets/tech/docker.png';
 import postman from '../assets/tech/postman.png';
 import github from '../assets/tech/github.png';
 import git from '../assets/tech/git.png';
-import vscode from '../assets/tech/vscode.png';
+import aws from '../assets/tech/aws.png';
 import vercel from '../assets/tech/vercel.png';
 import netlify from '../assets/tech/netlify.png';
+
 
 const techs = [
   { name: 'Java', icon: java },
@@ -35,9 +36,10 @@ const techs = [
   { name: 'Postman', icon: postman },
   { name: 'GitHub', icon: github },
   { name: 'Git', icon: git },
-  { name: 'VS Code', icon: vscode },
+  { name: 'AWS', icon: aws },
   { name: 'Vercel', icon: vercel },
   { name: 'Netlify', icon: netlify },
+
 ];
 
 export default techs;
