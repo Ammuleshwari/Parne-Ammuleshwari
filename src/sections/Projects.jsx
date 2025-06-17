@@ -3,50 +3,7 @@ import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
-  /*{
-    title: "Leet2Git",
-    status: "Beta Release",
-    date: "Aug 2024",
-    description: `Leet2Git ⚡ is an automation tool that transforms LeetCode solutions into a structured GitHub repository. It makes it easier to track progress, showcase problem-solving skills 🤖, and create organized and accessible formats 📝.`,
-    techStack: ["HTML", "CSS", "JavaScript", "Python", "FastAPI", "SQL Alchemy", "Postgres Database", "Github API"],
-    links: {
-      website: "#", // Replace with actual link if available
-      github: "#",  // Replace with actual repo
-    },
-  },  */
- /* {
-    title: "SkyCast",
-    status: "Completed",
-    date: "Oct 2024",
-    description: `SkyCast is a Node.js weather app 🌤️ that shows real-time weather updates and 5-day forecasts. It detects your GPS 📍 location or uses IP to fetch weather using OpenWeatherMap API 🌎.`,
-    techStack: ["HTML", "Tailwind CSS", "JavaScript", "Node.js", "OpenWeatherMap API", "Full Stack", "On Render"],
-    links: {
-      website: "#",
-      github: "#",
-    },
-  },
-  {
-    title: "SkyCast",
-    status: "Completed",
-    date: "Oct 2024",
-    description: `SkyCast is a Node.js weather app 🌤️ that shows real-time weather updates and 5-day forecasts. It detects your GPS 📍 location or uses IP to fetch weather using OpenWeatherMap API 🌎.`,
-    techStack: ["HTML", "Tailwind CSS", "JavaScript", "Node.js", "OpenWeatherMap API", "Full Stack", "On Render"],
-    links: {
-      website: "#",
-      github: "#",
-    },
-  },
-  {
-    title: "SkyCast",
-    status: "Completed",
-    date: "Oct 2024",
-    description: `SkyCast is a Node.js weather app 🌤️ that shows real-time weather updates and 5-day forecasts. It detects your GPS 📍 location or uses IP to fetch weather using OpenWeatherMap API 🌎.`,
-    techStack: ["HTML", "Tailwind CSS", "JavaScript", "Node.js", "OpenWeatherMap API", "Full Stack", "On Render"],
-    links: {
-      website: "#",
-      github: "#",
-    },
-  },*/
+ 
   {
     title: "Price-A-Med(PAM)",
     status: "Completed",
@@ -108,7 +65,7 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects" className="min-h-screen bg-black text-white py-20 px-4">
-      {/* Gradient heading */}
+     
       <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-500 via-pink-400 to-blue-500 bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient">
         Let's explore my projects
       </h2>
@@ -121,7 +78,7 @@ const Projects = () => {
             transition={{ type: "spring", stiffness: 100 }}
             className="bg-white/5 rounded-xl border border-white/10 overflow-hidden shadow-md hover:shadow-[0_0_20px_#3EFFC0] transition-all duration-300 p-6 flex flex-col justify-between"
           >
-            {/* Status badge and date */}
+          
             <div className="flex items-center gap-2 mb-3">
               {project.status && (
                 <span className={`text-xs font-bold px-3 py-1 rounded-full ${
@@ -135,13 +92,13 @@ const Projects = () => {
               <span className="text-sm text-gray-400">{project.date}</span>
             </div>
 
-            {/* Title */}
+
             <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
 
-            {/* Description */}
+           
             <p className="text-sm text-gray-300 mb-4">{project.description}</p>
 
-            {/* Tech stack tags */}
+          
             <div className="flex flex-wrap gap-2 mb-4">
               {project.techStack.map((tech, i) => (
                 <span
@@ -153,7 +110,7 @@ const Projects = () => {
               ))}
             </div>
 
-            {/* Links */}
+        
             {project.links && (
               <div className="flex gap-4 mt-auto pt-2">
                 {project.links.website && (

@@ -27,7 +27,7 @@ export default function Navbar() {
             >
               {item.icon}
             </button>
-            {/* Tooltip for internal links */}
+           
             <span className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 scale-0 group-hover:scale-100 bg-white text-black text-xs px-2 py-1 rounded shadow transition-all duration-200 origin-bottom">
               {item.label}
             </span>
@@ -42,7 +42,7 @@ export default function Navbar() {
             >
               {item.icon}
             </a>
-            {/* Tooltip for external links */}
+           
             {item.label && (
               <span className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 scale-0 group-hover:scale-100 bg-white text-black text-xs px-2 py-1 rounded shadow transition-all duration-200 origin-bottom">
                 {item.label}

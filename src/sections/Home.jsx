@@ -34,17 +34,7 @@ const Home = () => {
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-center bg-black text-white px-4 text-center overflow-hidden"
     >
-      {/* Animated Name in top left */}
-     {/* <motion.div
-        className="absolute top-4 left-4 z-50 text-2xl sm:text-3xl md:text-4xl font-cursive bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#3EFFC0] bg-clip-text text-transparent animate-text"
-        initial={{ opacity: 0, x: -30 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
-      >
-        Ammuleshwari
-      </motion.div>*/}
-
-       {/* Animated top badge */}
+    
       <motion.div
         className="mt-20 sm:mt-16 mb-2 sm:mb-4 relative"
         initial={{ opacity: 0, y: -20 }}
@@ -56,7 +46,7 @@ const Home = () => {
         </span>
       </motion.div>
 
-      {/* Heading with gradient name only */}
+   
       <motion.h1
         className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight"
         initial={{ opacity: 0, y: 40 }}
@@ -83,7 +73,7 @@ const Home = () => {
         </span>
       </motion.h1>
 
-      {/* Paragraph with changing word inline */}
+     
       <motion.p
         className="mt-4 sm:mt-6 max-w-2xl text-base sm:text-lg text-gray-400"
         initial={{ opacity: 0 }}
@@ -122,13 +112,14 @@ const Home = () => {
 </motion.div>
 
 
-        {/* Resume Button */}
+       
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="rounded-full p-[2px] bg-gradient-to-r from-[#3EFFC0] via-[#00f0ff] to-[#3EFFC0] shadow-[0_0_12px_#00f0ff]"
         >
           <a
-            href="/resume.pdf"
+           // href="/resume.pdf"
+            href="https://vardhamancoe-my.sharepoint.com/:b:/g/personal/parneammuleshwari22cs_student_vardhaman_org/EYsVp4ezbI9JjIa_Ki4jZvUBzb0UavPkun2YHB4HtwpRZA?email=parneammuleshwari22cs%40student.vardhaman.org&e=NXEtgp"
             target="_blank"
             className="bg-black rounded-full px-6 py-3 text-white flex items-center gap-2 transition duration-300"
           >
@@ -137,7 +128,7 @@ const Home = () => {
         </motion.div>
       </motion.div>
 
-       {/* Glowing wave light at bottom */}
+      
       <div className="absolute bottom-0 left-0 w-full h-40 pointer-events-none">
         <svg
           className="w-full h-full"

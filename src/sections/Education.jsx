@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const Education = () => {
   return (
     <section id="education" className="py-16 px-4 md:px-10 bg-black text-white">
-      {/* Title */}
+    
       <motion.h2
   className="text-5xl font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 to-blue-500 
     text-transparent bg-clip-text animate-gradient 
@@ -22,9 +22,9 @@ const Education = () => {
 
 
 
-      {/* Container */}
+    
       <div className="flex flex-col lg:flex-row justify-center gap-8 items-stretch">
-        {/* DEGREE CARD */}
+       
        <motion.div
   className="w-full lg:w-[38%] bg-[#111111] rounded-xl border border-[#2a2a2a] hover:border-transparent hover:bg-gradient-to-br hover:from-[#3EFFC0] hover:to-[#00f0ff] p-[2px] transition-all duration-500 hover:shadow-[0_0_20px_#3EFFC0]"
           initial={{ opacity: 0, x: -40 }}
@@ -33,7 +33,7 @@ const Education = () => {
           viewport={{ once: true }}
         >
           <div className="bg-[#111111] p-6 rounded-xl h-full flex flex-col justify-between">
-            {/* Header */}
+           
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-gradient-to-r from-blue-400 to-purple-500 p-4 rounded-xl text-white text-2xl">
                 <MdSchool />
@@ -44,7 +44,7 @@ const Education = () => {
               </div>
             </div>
 
-            {/* University Info */}
+           
             <div className="text-sm space-y-2">
               <p className="flex items-center gap-2">
                 <FaUniversity className="text-blue-400" />
@@ -60,7 +60,7 @@ const Education = () => {
               </p>
             </div>
 
-            {/* Courses */}
+         
             <div className="mt-6">
               <h4 className="font-semibold text-white mb-2">Key Courses</h4>
               <div className="flex flex-wrap gap-2 text-sm">
@@ -75,7 +75,7 @@ const Education = () => {
           </div>
         </motion.div>
 
-        {/* CERTIFICATION CARD */}
+     
        <motion.div
   className="w-full lg:w-[38%] bg-[#111111] rounded-xl border border-[#2a2a2a] hover:border-transparent hover:bg-gradient-to-br hover:from-[#f15bb5] hover:to-[#9b5de5] p-[2px] transition-all duration-500 hover:shadow-[0_0_20px_#c084fc]"
 
@@ -85,7 +85,7 @@ const Education = () => {
           viewport={{ once: true }}
         >
           <div className="bg-[#111111] p-6 rounded-xl h-full flex flex-col justify-between">
-            {/* Header */}
+          
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-gradient-to-r from-pink-500 to-purple-500 p-4 rounded-xl text-white text-2xl">
                 <FaCheckCircle />
@@ -96,7 +96,7 @@ const Education = () => {
               </div>
             </div>
 
-            {/* Certificates */}
+          
             <div className="space-y-4">
               {[
                 {
